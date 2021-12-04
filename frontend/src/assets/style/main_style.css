@@ -1,0 +1,137 @@
+.container2{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container2 .title{
+    margin-bottom: 10px;
+}
+
+.container2 .sub_title{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.products {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    padding: 20px 0;
+}
+
+.v-for {
+    width: 32.2%;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.container4{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.container4 .sub_title{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.container4 .btn-group{
+    margin: 0 auto;
+    width: 450px;
+    height: 60px;
+    background-color: rgb(221, 114, 113);
+    border-radius: 2em;
+    border-color: transparent;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container4 a{
+    text-decoration: none;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+.pr-container2{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.pr-container2 a{
+    text-decoration: none;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.pr-container2 .product-item:hover{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    background-color: #dfdfdf;
+}
+
+.pr-container2 .brand-title{
+    text-align: center;
+}
+
+.pr-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    padding: 20px 0;
+}
+
+.pr-products .product-item {
+    width: 25%;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 100%;
+    transition: .3s all;
+}
+
+.pr-products .product-item img {
+    width: 200px;
+    height: 280px;
+}
+
+.pr-products .product-item .pr-title {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.pr-products .product-item .txt{
+    line-height: 150%;
+}
+
+.pr-products .product-item .price {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.pr-products .product-item .btn-group {
+    text-align: center;
+    margin: 20px auto 0;
+    width: 200px;
+    background-color: rgb(221, 114, 113);
+    border-radius: 2em;
+    border-color: transparent;
+}
