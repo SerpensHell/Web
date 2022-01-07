@@ -1,6 +1,7 @@
 footer{
     padding: 40px 0;
     background: #f8f8f8;
+    flex: 0 0 auto;
 }
 
 .nav-title{

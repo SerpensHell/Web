@@ -7,7 +7,8 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
-body{
+body, html{
+    height: 100%;
   padding: 0;
   margin: 0;
   background: white;

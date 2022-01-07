@@ -3,6 +3,8 @@ header{
     align-items: center;
     background: #f8f8f8;
     color: #424242;
+    display: flex;
+    flex: 0 0 auto;
 }
 
 header .container1 .top_menu .logo{
@@ -87,3 +89,4 @@ header .top_menu .right-main ul{
 .container1 a:hover{
     background:#dfdfdf;
 }
+

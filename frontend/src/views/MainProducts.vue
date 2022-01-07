@@ -3,7 +3,7 @@
     <section class="products">
       <section class="product-item">
         <div data-link class="image1">
-          <img :src= product.image alt="img">
+          <img :src= "require(`../assets/img/products/${product.id}.jpg`)" alt="img">
         </div>
 
         <div class="pr-title">
@@ -22,7 +22,7 @@
          <span class="price"> {{product.price}} руб. </span>
         </div>
         <div class="btn-group">
-          <a href="">Заказать</a>
+            <button  class="btn-group" @click = "addToCart(product)"><span class="bt-txt">Заказать</span></button>
         </div>
       </section>
     </section>
@@ -32,8 +32,19 @@
 <script>
 export default {
   name: "MainProducts",
-  props: ['product']
+  props: ['product'],
+    methods: {
+        addToCart(product){
+            //тут добавление в бд корзины пользователя сделать
+            const params = {
+                id: product.id, count: 1, userId: localStorage.userId
+            }
+            this.$http.post('/cart', params)
+            //.then(response => product.inCart = response.data.inCart)
+        }
+    }
 }
+
 </script>
 
 <style scoped src="../assets/style/product_style.css">

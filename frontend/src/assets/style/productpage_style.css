@@ -1,3 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main_container {
+    flex-direction: column;
+    display: flex;
+    flex: 1 0 auto;
+    margin: 0 auto;
+}
+
 .pr-container2{
     margin: 0 auto;
     width: 1170px;

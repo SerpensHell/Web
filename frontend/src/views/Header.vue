@@ -9,9 +9,10 @@
         </ul>
         <h1 class="logo" style="color: palevioletred">The Perfume House</h1>
         <ul class="right-main">
-          <li class = "right-item"><a href="">Бренды</a> </li>
-          <li class = "right-item"><a href="">Оплата и доставка</a> </li>
-          <li class = "right-item"><a href="">Контакты</a> </li>
+          <li class = "right-item"><a href="">Корзина</a></li>
+            <li class = "right-item"> <Cart></Cart></li>
+            <li><router-link to="Login">Авторизация</router-link></li>
+
         </ul>
       </div>
     </div>
@@ -19,8 +20,10 @@
 </template>
 
 <script>
+import Cart from "./Cart";
 export default {
-  name: "Header"
+  name: "Header",
+    components: {Cart}
 }
 </script>
 
